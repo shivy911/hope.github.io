@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Special Message for You</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #DEA5A4;
+            transition: background-color 1s;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .content {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(255,182,193,0.3);
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+            transition: all 0.5s;
+        }
+        #pinInput {
+            font-size: 18px;
+            padding: 10px;
+            margin: 10px 0;
+            width: 80%;
+            max-width: 200px;
+            border: 1px solid #FFB6C1;
+        }
+        #submitPin {
+            font-size: 18px;
+            padding: 10px 20px;
+            cursor: pointer;
+            background-color: #FFB6C1;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        #submitPin:hover {
+            background-color: #FFA0AB;
+        }
+        #letter {
+            display: none;
+            text-align: left;
+            line-height: 1.6;
+            max-height: 70vh;
+            overflow-y: auto;
+            padding-right: 20px;
+        }
+        #errorMessage {
+            color: #FF69B4;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h2>Greetings Neha,</h2>
+            <p>Please enter the pin to reveal a special message.</p>
+            <input type="password" id="pinInput" placeholder="Enter 4-digit PIN">
+            <button id="submitPin">Reveal Message</button>
+            <div id="errorMessage"></div>
+            <div id="letter">
+		<p>Dear Besty,
+                <p>Okay, I will move straight to it. I might have told you what this is about.</p>
+                <p>So this about me applying for a scholarship in New Zealand. Remember the IELTs test I was studying for?</p>
+                <p>Well, I was short listed for the scholarship. And you might not remember it but when I told you that I had something to tell you this was it..</p>
+                <p>I had got short listed!! so that's why I decided not to tell you then, because I wasn't sure at that point.</p>
+                <p>Well guess what?</p>
+                <p>I didn't get the scholarship, unfortunately. I think I failed my psychometric test. My IELTs marks were good and my interview went well.</p>
+                <p>Anyways, the main reason I am writing this.. Is well..</p>
+                <p>The thought about leaving Fiji had got me thinking a lot about unsaid things. I didn't want to leave, honestly. But the thought of leaving everyone for 2 years made me think about one secret in particular, I had kept for so long. I wanted to tell before I left...  I didn't wanna regret any longer than I have and I didn't wanna return back to Fiji with even more regrets.</p>
+                <p>Fortunately, I did not get it so I was kind of relieved I don't have to tell it to you anymore. But then, the thought of, did I really wanted to tell you, just because I was possibly going to leave?</p>
+                <p>I haven't always been honest with you. Neither have I been honest with myself. As much as honest as I can be, I am. But one thing that I've hidden from you is the fact that I've been in love with you... I know how loosely people use that word but to me I don't take it lightly. I didn't want to believe that I have feelings for you and I kept lying to myself that these feelings are not real. Mostly because I did not want to cross that line called friendship. Or was rather afraid to cross it. I was afraid that if I cross it our friendship won't be the same in the sense that you might reject me. And I was afraid it could end badly if we did cross that line, because I wouldn't want it to end. I was afraid to lose you either way and always decided that what we had is good enough for me. But recently I've come to realise I can no longer hold it in me.</p>
+                <p>I can't really remember how and when it happened but when I did fall for you, which I never had any intention of. But looking back in HS, when I did realise how I had started to have feelings for you, I was in denial, initially. I started to like everything that I used to make fun of, of  you. You having issues with every little things, to your psychoticness. Hehe. Sorry .. I started to like how we used to argue and how attractive you looked when you were mad at me. It's weird, I know. I liked annoying you because I saw this the only way to be close to you.</p>
+                <p>But I think when I finally realised I had feelings for you was when you didn't talk to me for a while, the thought of you not talking to me again and thought of things not being the same was bad and that's why wrote a letter to you, asking for forgiveness.</p>
+                <p>You probably didn't realise it but since then I started being a bit more "nice". Actually I wasn't really nice but I couldn't make it obvious I had started to like you. Haha but to you I never was, so that's fair.</p>
+                <p>My feelings grew for you even more in form 6 but I couldn't tell you... I thought it will pass and since I thought I would be the only one who looked at you that way. I didn't want to feel rejected because the thought of losing you and not talking to you again and ruining what we had was too much for me.. This fear was greater than what I felt for you and that's why every now and then I would shove it under the rug but like every thing hidden under the rug you will notice a bulge popping out. It was always there. Just covered up. It's hard to explain what I feel for you but all I know is that every time I am with you. It feels right. I feel it's you, always has been and will be.</p>
+                <p>I can't remember if it was in form 6 or form 7 that I had told Rania about my feelings I have  you and she was the first person to know about it. Anyways, she had told me to tell you but I then again... I chickened out.</p>
+                <p>After form 7 I was ready to tell you but my mind was so messed up with all these fears and it messed me up so badly the only conclusion I could come to was we'd be better off as friends. What a lie I had told myself because it never was. I didn't tell you and I just watched as you slowly became someone else's.</p>
+                <p>I kept seeing you, with others and nothing I could do about it coz I'm the stupid one here, honestly... If only I had told you from the beginning.</p>
+                <p>But I don't want to be late anymore. There were these constant thoughts about me returning to Fiji and you would get married. I already hated how distant you were with me when you were in a relationship. I don't think I can bare to see you with anyone else anymore, Neha.</p>
+                <p>There's so many things which I want to write so many things, which I have written in my notes. Unsent letters and deleted notes all of which I'm sure keep repeating everytime I think of writing. Notes which I wish I could show you.</p>
+                <p>That's beside the point. Point is I don't want to live in this constant regret anymore. Everytime I'm talking to someone, you come into my mind and the thought of choosing between you and her would cross my mind. And honestly, I don't want to waste my time on girls that isn't you.</p>
+                <p>I feel like I'm drifting again. I just wanted to tell how I felt. How I've always felt. I've always been afraid to show how I really felt and afraid to do things that I wanna do for you. Afraid to show how much I care for you. But I don't want to be afraid anymore. I know my feelings for you is greater than this fear now and I hope you could see that. I want to be there for you, always and forever. I wanna see till the end with you.</p>
+                <p>I don't want to think about rejection anymore and I'm not trying to rush into things. I like seeing you happy and right now, you seem happy, so I don't want to ruin that for you. Just know that I'll wait for you when you're ready. Because once I get a hold of you. I won't let go. I just want to be Yours.</p>
+		<p>P.S. That was the second time I had gotten you chocolates... I know you know...</p>
+		<p>PP.S. Really sorry, I was not trying to test your patience, I was waiting for when you will be in Suva or I was planning to come to Lautoka to give you this "letter". </p>
+		<p>With Love,</p>
+		<p>Shivy.
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const correctPin = "2012"; // Set your desired PIN here
+        
+        document.getElementById('submitPin').addEventListener('click', function() {
+            const enteredPin = document.getElementById('pinInput').value;
+            if (enteredPin === correctPin) {
+                revealLetter();
+            } else {
+                document.getElementById('errorMessage').textContent = "Incorrect PIN. Please try again.";
+            }
+        });
+
+        function revealLetter() {
+            document.body.style.backgroundColor = '#FFE4E1';
+            document.querySelector('.content').style.boxShadow = '0 0 30px rgba(255,182,193,0.5)';
+            document.getElementById('pinInput').style.display = 'none';
+            document.getElementById('submitPin').style.display = 'none';
+            document.getElementById('errorMessage').style.display = 'none';
+            document.querySelector('h2').style.display = 'none';
+            document.querySelector('p').style.display = 'none';
+            
+            setTimeout(() => {
+                document.getElementById('letter').style.display = 'block';
+                document.getElementById('letter').style.opacity = '0';
+                document.getElementById('letter').style.transform = 'translateY(20px)';
+                document.getElementById('letter').style.transition = 'opacity 1s, transform 1s';
+                
+                setTimeout(() => {
+                    document.getElementById('letter').style.opacity = '1';
+                    document.getElementById('letter').style.transform = 'translateY(0)';
+                }, 100);
+            }, 500);
+        }
+    </script>
+</body>
+</html>
